@@ -20,6 +20,7 @@ public abstract class Entity<TKey> : Entity, IEntity<TKey>, IEquatable<Entity<TK
 {
     public virtual TKey Id { get; protected set; }
 
+    protected Entity() { }
     protected Entity(TKey id)
     {
         Id = id;
