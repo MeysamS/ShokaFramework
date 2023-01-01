@@ -63,6 +63,7 @@ class Build : NukeBuild
         {
             DotNetBuild(_ => _
             .SetProjectFile(solution)
+            .SetAuthors("SADAD.Securities")
             .SetConfiguration(Configuration)
             .SetAssemblyVersion(gitVersion.AssemblySemVer)
             .SetFileVersion(gitVersion.AssemblySemFileVer)
