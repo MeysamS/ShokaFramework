@@ -5,23 +5,24 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{97507E5A-A5A0-4DA5-A552-53711D9B9009}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoka.Core", "src\Shoka.Core\Shoka.Core.csproj", "{E9745517-F487-454E-B73B-C3AF8BD8A57A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shoka.Core", "src\Shoka.Core\Shoka.Core.csproj", "{E9745517-F487-454E-B73B-C3AF8BD8A57A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoka.Domain", "src\Shoka.Domain\Shoka.Domain.csproj", "{94136186-BABD-4655-A6AB-1CC48853B864}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shoka.Domain", "src\Shoka.Domain\Shoka.Domain.csproj", "{94136186-BABD-4655-A6AB-1CC48853B864}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{820FD7F9-F763-4DA6-8E0E-2F52246C11C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Domain.Test", "tests\Framework.Domain.Test\Framework.Domain.Test.csproj", "{C692F2DD-D706-4F35-8139-44E3E65B605C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Domain.Test", "tests\Framework.Domain.Test\Framework.Domain.Test.csproj", "{C692F2DD-D706-4F35-8139-44E3E65B605C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{8D9EA117-8C48-49BB-8C82-BD5EFDB76004}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D9EA117-8C48-49BB-8C82-BD5EFDB76004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9EA117-8C48-49BB-8C82-BD5EFDB76004}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9745517-F487-454E-B73B-C3AF8BD8A57A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E9745517-F487-454E-B73B-C3AF8BD8A57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9745517-F487-454E-B73B-C3AF8BD8A57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,9 +36,15 @@ Global
 		{C692F2DD-D706-4F35-8139-44E3E65B605C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C692F2DD-D706-4F35-8139-44E3E65B605C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E9745517-F487-454E-B73B-C3AF8BD8A57A} = {97507E5A-A5A0-4DA5-A552-53711D9B9009}
 		{94136186-BABD-4655-A6AB-1CC48853B864} = {97507E5A-A5A0-4DA5-A552-53711D9B9009}
 		{C692F2DD-D706-4F35-8139-44E3E65B605C} = {820FD7F9-F763-4DA6-8E0E-2F52246C11C0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0158BF7-999D-4067-8F58-1375C0D7BE1E}
 	EndGlobalSection
 EndGlobal
