@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+	<PropertyGroup>
+		<Authors>Meysam Soleymani</Authors>
+		<RepositoryUrl>https://github.com/MeysamS/ShokaFramework</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/MeysamS/ShokaFramework</PackageProjectUrl>
+		<!--<PackageLicense>https://github.com/yourrepo/NukeSample/blob/master/LICENSE</PackageLicense>-->
+	</PropertyGroup>
+</Project>
